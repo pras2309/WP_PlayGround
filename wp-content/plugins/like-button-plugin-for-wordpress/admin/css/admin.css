@@ -1,0 +1,349 @@
+/* #######################################################
+	@Author: Stefan Natter
+	Version 2.1.2
+	http://www.gb-world.net
+	for the WP-Plugin: Like-Button-Plugin-For-Wordpress by Stefan Natter
+	Notice: some css-elements (classes and ids) are inspired by other plugins)
+	Compressed with: http://www.cssdrive.com/index.php/main/csscompressor
+	Uncompressed with: http://mabblog.com/cssoptimizer/uncompress.html
+####################################################### */
+#gxtb_lb_fB_options   {
+}
+
+.gb-table {
+	/*width:100%;
+	*/border:none;
+}
+
+.gb-table textarea {
+	height:300px;
+	width:400px;
+	max-width:500px;
+	max-height:300px;
+}
+
+/* #################################################### BEGIN GENERAL ###################################################### */
+.note, a.note {
+	color:#900;
+	border-bottom:1px dotted #900;
+	text-decoration:none;
+}
+/* #################################################### END GENERAL ######################################################### */
+/* ####################################################### BEGIN FORM ####################################################### */
+#gxtb_lb_fB_options input, textarea {
+	border:2px solid #748ab7;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	color:#555;
+	font-size:11px;
+}
+
+#gxtb_lb_fB_options select {
+	vertical-align:baseline;
+	border:1px solid #748ab7;
+	background-color:#eceef5;
+}
+
+#gxtb_lb_fB_options input.checkbox {
+	vertical-align:middle;
+	width:auto;
+	border-style:none;
+	background-color:#eceef5;
+}
+
+#gxtb_lb_fB_options input.radio {
+	margin-right:5px;
+	margin-left:15px;
+	vertical-align:middle;
+	width:auto;
+	border-style:none;
+	background-color:#eceef5;
+}
+
+#gxtb_lb_fB_options input:focus {
+	background-color:#D8D8D8;
+}
+img.gxtb_image, div.gxtb_image {
+	border:2px dashed #748ab7;
+	padding:5px 15px 15px 5px;
+}
+
+#gxtb_fb_lB_meta_post_focus_div {
+	border:none;
+}
+
+table.gxtb_img_preview {
+	border:2px dashed #748ab7;
+	overflow:hidden;
+}
+
+#gxtb_img_preview td {
+	font-style:italic;
+	font-size:small;
+	width:50px;
+}
+
+#gxtb_img_preview_div img {
+	max-width:400px;
+}
+input#button {
+	color:#fff;
+}
+
+input#button, input#button-reset {
+	border:2px solid #b2cfe4;
+	float:left;
+	width:100%;
+	padding:4px;
+}
+
+input#button-reset:hover {
+	border-color:red;
+	color:red;
+}
+
+input#button:hover {
+	border:2px solid #305769;
+	color:#cdebfd;
+}
+/* ####################################################### END FORM ####################################################### */
+/* ####################################################### BEGIN SIDEBAR ####################################################### */
+ul.bugtracker,ul.wordpress {
+	font-size:12px;
+	margin-left:25px;
+}
+ul.bugtracker {
+	list-style-image:url(../../images/icon/mantis_16.png);
+}
+
+ul.wordpress {
+	list-style-image:url(../../images/icon/wordpress_16.png);
+}
+
+/* ####################################################### END SIDEBAR ####################################################### */
+/* ####################################################### BEGIN TABLE ####################################################### */
+
+#gb-table {
+	font-size:12px;
+	text-align:left;
+	border-collapse:collapse;
+}
+
+#gb-table th {
+	font-size:13px;
+	font-weight:400;
+	padding:8px;
+	background:none;
+}
+
+#gb-table ul, ol {
+	font-size:12px;
+	list-style-type:disc;
+	padding-left:2px;
+}
+
+#gb-table-generator {
+	font-size:11px;
+	text-align:left;
+	border-collapse:collapse;
+	padding:0 0 5px 10px;
+}
+
+#gb-table-generator th {
+	font-size:11px;
+	font-weight:400;
+	background:none;
+	padding:0 0 5px 10px;
+}
+
+#gb-table-generator td {
+	font-size:11px;
+	font-weight:400;
+	margin:0;
+	padding:0 0 5px 10px;
+}
+
+#gb-table-generator ul, ol {
+	font-size:12px;
+	list-style-type:none;
+	padding:0 0 5px 10px;
+}
+
+.gb-table-header-preview {
+	padding-top:38px;
+	background:none;
+	margin-top:33px;
+	border-top:2px solid #748ab7;
+}
+
+td.gb-table-header {
+	padding:8px;
+	background:none;
+	border-right:2px solid #748ab7;
+}
+
+td.gb-table-tipp {
+	padding:8px;
+	background:none;
+}
+
+/* ####################################################### END TABLE ####################################################### */
+/* ####################################################### BEGIN INFO ####################################################### */
+
+.plugin-version {
+	float:right;
+	font:13px Georgia,  "Times New Roman",  Times,  serif;
+	color:#70777a;
+	text-shadow:#fff -1px -1px 0;
+	letter-spacing:-1px;
+	margin-top:2px;
+	position:relative;
+	left:10px;
+	margin-bottom:35px;
+	margin-right:15px;
+	padding-bottom:35px;
+}
+/* ####################################################### END INFO ####################################################### */
+/* ############################################## IMAGE PREVIEW (OPENGRAPH) ############################################### */
+#preview {
+	position:absolute;
+	border:0.5px solid #ccc;
+	background:#333;
+	display:none;
+	color:#fff;
+}
+
+.thumb-img {
+	border-top:1px solid #CCC;
+	border-left:1px solid #CCC;
+	border-bottom:1px solid #AAA;
+	border-right:1px solid #AAA;
+	position:relative;
+	width:150px;
+	height:150px;
+	margin:10px;
+	padding:6px;
+	background:#FFF;
+}
+
+.thumb-inner {
+	position:relative;
+	overflow:hidden;
+	width:100%;
+	height:100%;
+}
+
+.thumb-img img {
+	border:0;
+}
+
+.thumb-strip {
+	position:absolute;
+	width:150px;
+	height:10px;
+	bottom:6px;
+	left:6px;
+	background:#FFF;
+	filter:progid;
+	-moz-opacity:0.60;
+	opacity:0.60;
+}
+
+.thumb-zoom {
+	position:absolute;
+	width:22px;
+	height:22px;
+	right:10px;
+	bottom:7px;
+}
+/* ####################################################### END IMAGE ####################################################### */
+/* ####################################################### START FAQ-PAGE ####################################################### */
+ol.gb-faq {
+	 list-style-type:decimal;
+	 font-size:12px;
+	white-space:normal;
+	 pre-wrap:pre;
+	 line-height: 1.5em;
+}
+
+ul.gb-faq {
+	 list-style-type:disc;
+	 padding-left:30px;
+	white-space:normal;
+	 pre-wrap:pre;
+	 line-height: 1.5em;
+}
+/* ####################################################### END FAQ-PAGE ####################################################### */
+/* #################################################### START EXPERT-PAGE ###################################################### */
+.gbexpert_button {
+ text-align:center;
+ border:2px solid #b2cfe4;
+ float:left;
+ margin-right:15px;
+}
+/* #################################################### END EXPERT-PAGE ###################################################### */
+/* #################################################### BEGIN DEV-LOG ###################################################### */
+span.gb-development-down, span.gb-development-delete, span.gb-development-block, span.gb-development-gear, span.gb-development-plus, span.gb-development-warning, span.gb-development-tick, span.gb-development-calendar, span.gb-development-info, span.gb-post-wp, span.gb-post-bugs {
+	height:16px;
+	width:16px;
+	display:block;
+	position:static;
+	float:left;
+	margin-right:0.3em;
+}
+span.gb-development-delete {
+	background:url(../../images/icon/delete_16.png) no-repeat;
+}
+span.gb-development-block {
+	background:url(../../images/icon/block_16.png) no-repeat;
+}
+span.gb-development-gear {
+	background:url(../../images/icon/gear_16.png) no-repeat;
+}
+span.gb-development-plus {
+	background:url(../../images/icon/plus_16.png) no-repeat;
+}
+span.gb-development-warning {
+	background:url(../../images/icon/warning_16.png) no-repeat;
+}
+span.gb-development-tick {
+	background:url(../../images/icon/tick_16.png) no-repeat;
+}
+span.gb-development-down {
+	background:url(../../images/icon/down_16.png) no-repeat;
+}
+span.gb-development-calendar {
+	background:url(../../images/icon/calendar_16.png) no-repeat;
+}
+span.gb-development-info {
+	background:url(../../images/icon/info_16.png) no-repeat;
+}
+span.gb-post-wp {
+	background:url(../../images/icon/wordpress_16.png) no-repeat;
+}
+span.gb-post-bugs {
+	background:url(../../images/icon/mantis_16.png) no-repeat;
+}
+ul.gb-development-todo, ul.gb-development-network {
+	font-size:12px;
+	margin-left:25px;
+}
+ul.gb-development-todo {
+	list-style-image:url(../../images/icon/tools_16.png);
+}
+ul.gb-development-network {
+	list-style-image:url(../../images/icon/network_16.png);
+}
+#gb-development-title {
+	text-decoration:underline;
+}
+#gb-development-title, #gb-development-content {
+	padding-bottom:15px;
+}
+.gb-development, #gb-development-title, #gb-development-content {
+	line-height:1.5em;
+}
+ #gb-development-list hr {
+	margin:5px 0 15px 0;
+}
+/* ####################################################### END DEV-LOG ####################################################### */

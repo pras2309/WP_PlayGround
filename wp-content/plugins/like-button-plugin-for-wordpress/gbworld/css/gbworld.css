@@ -1,0 +1,272 @@
+/* #######################################################
+
+	@Author: Stefan Natter
+	Version 2.0
+	http://www.gb-world.net
+	for GB-World Wordpress-Plugins
+	compressor: http://www.cssdrive.com/index.php/main/csscompressor
+	uncompressor: http://mabblog.com/cssoptimizer/uncompress.html
+
+####################################################### */
+
+
+/* ####################################################### START GB-World ####################################################### */
+.gb_world td {
+	vertical-align:top;
+	 border-spacing:5px;
+}
+
+ img.gb_world {
+	border:solid;
+	 display:block;
+	 margin-left:auto;
+	 margin-right:auto;
+	 max-width:474px;
+}
+
+.gxtb-clearer {
+	clear:both;
+}
+
+li.ajax-error {
+	color:#555;
+}
+
+li.gxtb_feed_li {
+	border:none;
+}
+
+a.gxtb_feed {
+	color:#3c627f;
+}
+
+a.gxtb_feed:hover {
+	color:#d54e21;
+}
+
+#gb_world_iframe {
+	width:100%;
+	height:150px;
+}
+
+#gxtb_world_paypalbox {
+	border-color:#f00;
+	border-width:medium;
+	border-style:dotted;
+}
+
+#gxtb_world_plugin_box {
+}
+
+ul.gb_world_plugins, ul.gxtb_feed {
+	font-size:12px;
+	list-style-image:url(../images/globe_16.png);
+	padding-left:25px;
+}
+
+#gb_world_plugins a {
+	color:#3c627f;
+}
+
+#gb_world_plugins a:hover {
+	color:#d54e21;
+}
+
+ #gxtb_world_like_box  {
+	 width:320px;
+}
+
+ .gxtb_like_box,  #gxtb_like_box  {
+	 width:300px;
+	 height:587px;
+}
+
+ .gb_worldfirsttd  {
+	 max-width:330px;
+}
+
+ .gbnews  {
+	 white-space:normal;
+	 pre-wrap:pre;
+}
+
+ .gb_worldsecondtd,  #additional-sortables {
+	 max-width:1024px;
+}
+/* ####################################################### END GB-World ####################################################### */
+/* ####################################################### START SMARTCSS ####################################################### */
+ @media (max-width:1350px) {
+	.inner-sidebar, #side-info-column {
+	display:block;
+}
+
+.gxtb_like_box, #gxtb_like_box {
+	width:300px;
+	height:587px;
+}
+
+.gb_worldfirsttd {
+	max-width:330px;
+}
+
+.gb_worldsecondtd, #additional-sortables {
+	max-width:430px;
+}
+
+img.gb_world {
+	max-width:280px;
+}
+
+}
+
+ @media (max-width:1220px) {
+/* .inner-sidebar, #side-info-column {
+	display:hidden;
+	visibility:collapse;
+} */
+
+.gxtb_like_box, #gxtb_like_box {
+	width:300px;
+	height:587px;
+}
+
+.gb_worldfirsttd {
+	max-width:330px;
+}
+
+.gb_worldsecondtd, #additional-sortables {
+	max-width:420px;
+}
+
+img.gb_world {
+	max-width:420px;
+}
+
+}
+
+@media (max-width:1130px) {
+/* .inner-sidebar, #side-info-column {
+	display:hidden;
+	visibility:collapse;
+} */
+
+.gxtb_like_box, #gxtb_like_box {
+	width:300px;
+	height:587px;
+}
+
+.gb_worldfirsttd {
+	max-width:330px;
+}
+
+.gb_worldsecondtd, #additional-sortables, img.gb_world {
+	max-width:380px;
+}
+}
+
+@media (max-width:1047px) {
+/* 	.inner-sidebar, #side-info-column {
+	display:none;
+	visibility:collapse;
+} */
+
+.gxtb_like_box, #gxtb_like_box {
+	width:300px;
+	height:587px;
+}
+
+.gb_worldfirsttd {
+	max-width:330px;
+}
+
+.gb_worldsecondtd, #additional-sortables {
+	max-width:500px;
+	min-width:300px;
+}
+img.gb_world {
+	max-width:260px;
+}
+}
+@media (max-width:970px) {
+/*	.inner-sidebar, img.gb_world  {
+	display:none;
+	visibility:collapse;
+} */
+
+.gxtb_like_box, #gxtb_like_box {
+	width:300px;
+	height:587px;
+}
+
+.gb_worldfirsttd {
+	max-width:330px;
+}
+
+.gb_worldsecondtd, #additional-sortables {
+	max-width:300px;
+	min-width:280px;
+}
+}
+
+
+@media (max-width:930px) {
+.gb_worldsecondtd, #additional-sortables, .inner-sidebar, img.gb_world{
+	display:none;
+	visibility:collapse;
+}
+.formlyWrapper-Base, .metabox-holder, .has-right-sidebar {
+ max-width:400px;
+ max-height:700px;
+}
+
+.plugin-version {
+	display:none;
+}
+}
+
+@media (max-width:874px) {
+.inner-sidebar {
+	display:none;
+	visibility:collapse;
+}
+
+.gxtb_like_box, #gxtb_like_box {
+	width:300px;
+	height:587px;
+}
+
+.gb_worldfirsttd {
+	max-width:330px;
+}
+
+.gb_worldsecondtd, #additional-sortables {
+	max-width:100px;
+}
+
+}
+@media (max-width:840px) {
+/*	.inner-sidebar, .gb_worldsecondtd, #additional-sortables{
+	display:none;
+	visibility:collapse;
+} */
+
+.gxtb_like_box, #gxtb_like_box {
+	width:300px;
+	height:587px;
+}
+
+.gb_worldfirsttd {
+	max-width:330px;
+	max-height:600px;
+}
+
+.formlyWrapper-Base, .metabox-holder, .has-right-sidebar {
+ max-width:400px;
+ max-height:700px;
+}
+
+#post-body, #post-body-content {
+	max-height:700px;
+}
+}
+ /* ####################################################### END SMARTCSS ####################################################### */

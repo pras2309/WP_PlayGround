@@ -1,0 +1,8 @@
+/* #######################################################
+	@Author: Stefan Natter
+	Version 0.2
+	http://www.gb-world.net
+	for the WP-Plugin: Like-Button-Plugin-For-Wordpress by Stefan Natter
+	Notice: some css-elements (classes and ids) are inspired by other plugins)
+####################################################### */
+.gb-widget input,textarea{border:2px solid #748ab7;-webkit-border-radius:5px;-moz-border-radius:5px;color:#555;font-size:11px;background-color:#eceef5 !important;}.gb-widget select{vertical-align:baseline;border:1px solid #748ab7;background-color:#eceef5;width:auto}.gb-widget input.checkbox{vertical-align:middle;width:auto;border-style:none;background-color:#eceef5}.gb-widget input.radio{margin-right:5px;margin-left:15px;vertical-align:middle;width:auto;border-style:none;background-color:#eceef5;padding-left:15px}.gb-widget input:focus{background-color:#D8D8D8;border:3px solid #748ab7}

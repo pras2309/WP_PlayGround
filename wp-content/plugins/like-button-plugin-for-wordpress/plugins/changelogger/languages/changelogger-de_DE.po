@@ -1,0 +1,87 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Changelogger v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2009-06-21 16:37+0200\n"
+"Last-Translator: Oliver Schlöbe <scripts@schloebe.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: changelogger.php:168
+#: changelogger.php:235
+#, php-format
+#@ changelogger
+msgid "What has changed in version %1$s"
+msgstr "Was hat sich geändert in Version %1$s"
+
+#: changelogger.php:192
+#, php-format
+#@ changelogger
+msgid "<strong>ERROR</strong>: %s"
+msgstr "<strong>FEHLER</strong>: %s"
+
+#: changelogger.php:361
+#@ changelogger
+msgid "Changelogger requires at least WordPress 2.7!"
+msgstr "Changelogger benötigt mindestens WordPress 2.7!"
+
+#: changelogger.php:187
+#, php-format
+#@ changelogger
+msgid "There is <strong>no changelog section provided for this plugin</strong>. Please encourage the plugin author to add a changelog section to the plugin's readme! Contact %s! [<a href=\"http://westi.wordpress.com/2009/06/20/changelogs-changelogs-changelogs/\" target=\"_blank\">More</a>]"
+msgstr "Es gibt <strong>keinen Changelog-Abschnitt für dieses Plugin</strong>. Bitte empfehlen Sie dem Pluginautor, einen Changelog-Abschnitt in der readme-Datei des Plugin zu erstellen! Kontaktieren Sie %s! [<a href=\"http://westi.wordpress.com/2009/06/20/changelogs-changelogs-changelogs/\" target=\"_blank\">Mehr</a>]"
+
+#: changelogger.php:181
+#@ changelogger
+msgid "There is a changelog section for this plugin, but it is not readable, propably because it <strong>does not match the <a href=\"http://wordpress.org/extend/plugins/about/readme.txt\" target=\"_blank\">readme.txt standards</a></strong>!"
+msgstr "Es gibt einen Changelog-Abschnitt für dieses Plugin, aber er ist nicht lesbar, da er <strong>nicht den <a href=\"http://wordpress.org/extend/plugins/about/readme.txt\" target=\"_blank\">readme.txt Standards entspricht</a></strong>!"
+
+#: changelogger.php:177
+#: changelogger.php:181
+#: changelogger.php:187
+#, php-format
+#@ changelogger
+msgid "If you are interested, check out the plugin's <a href=\"http://plugins.trac.wordpress.org/log/%s/trunk\" target=\"_blank\">Revision Log</a>!"
+msgstr "Wenn es Sie interessiert, werfen Sie einen Blick auf das <a href=\"http://plugins.trac.wordpress.org/log/%s/trunk\" target=\"_blank\">Revision Log</a>!"
+
+#: changelogger.php:164
+#: changelogger.php:225
+#@ changelogger
+msgid "Previous version"
+msgstr "Vorige Version"
+
+#: changelogger.php:219
+#@ changelogger
+msgid "Next version"
+msgstr "Nächste Version"
+
+#: changelogger.php:170
+#, php-format
+#@ changelogger
+msgid "Compatibility with WordPress %1$s: 100%% (according to its author)."
+msgstr "Kompatibilität mit WordPress %1$s: 100%% (nach Meinung des Autors)."
+
+#: changelogger.php:173
+#, php-format
+#@ changelogger
+msgid "Compatibility with WordPress %1$s: %2$d%% (%3$d \"works\" votes out of %4$d total)."
+msgstr "Kompatibilität mit WordPress %1$s: %2$d%% (%3$d \"funktioniert\" Stimmen von %4$d Gesamt)."
+
+#: changelogger.php:175
+#, php-format
+#@ changelogger
+msgid "Compatibility with WordPress %1$s: Unknown."
+msgstr "Kompatibilität mit WordPress %1$s: Unbekannt."
+

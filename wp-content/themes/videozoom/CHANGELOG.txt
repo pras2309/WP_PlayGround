@@ -1,0 +1,8 @@
+Videozoom Theme
+http://www.wpzoom.com/themes/videozoom
+ 
+CHANGELOG
+---------
+
+V 1.0 (October 3, 2010)
+- initial release

@@ -1,0 +1,56 @@
+/* #######################################################
+	@Author: Stefan Natter
+	Version 1.0
+	http://www.gb-world.net
+	for the WP-Plugin: Like-Button-Plugin-For-Wordpress by Stefan Natter
+	Notice: some css-elements (classes and ids) are inspired by other plugins)
+####################################################### */
+	@media (max-width: 1190px) {
+		#side-info-column, .inner-sidebar, #video-sortables, #iframe-sortables {display:none; visibility:collapse; float:right;} /* Sidebar (all) and Video-Box&iFrame-Box (FAQ Page) */
+		.meta-box-sortables, .ui-sortable {width:720px;border:none; white-space:normal; pre-wrap:pre; } /* Metaboxes (Content) */
+		.gxtb_image { max-width:350px; } /* GB-World Page image */
+		ol.gb-faq, ul.gb-faq { max-width:380px;} /* optimized ul/ol for smartphones and smaller screens (FAQ-Page) */
+  	}
+ 
+	@media (max-width: 1047px) and (max-width: 945px){
+		#side-info-column, .inner-sidebar, #video-sortables  {display:none; visibility:collapse; float:right;}
+		.meta-box-sortables, .ui-sortable {width:650px;border:none; white-space:normal; pre-wrap:pre; }
+		.gxtb_image { max-width:350px; }
+		ol.gb-faq, ul.gb-faq { width:350px;}
+  	}
+	@media (max-width: 900px) {
+		#side-info-column, .inner-sidebar, #video-sortables  {display:none; visibility:collapse;}
+		.meta-box-sortables, .ui-sortable {max-width:600px;border:none; white-space:normal; pre-wrap:pre; }
+		.gxtb_image, .gb-breaks { display:none;}
+		#gb-table { max-width:350px; }
+		ol.gb-faq, ul.gb-faq { width:350px;}
+ 	}
+ 
+	@media (max-width: 874px) {
+		#side-info-column, .inner-sidebar, #video-sortables  {display:none; visibility:collapse;}
+		.meta-box-sortables, .ui-sortable {max-width:550px;border:none; white-space:normal; pre-wrap:pre; }
+		.gxtb_image, .gb-breaks { display:none;}
+		#gb-table { max-width:350px; }
+ 	}
+ 	
+	@media (max-width: 702px) {
+		#side-info-column, .inner-sidebar, #video-sortables  {display:none; visibility:collapse;}
+		.meta-box-sortables, .ui-sortable {max-width:530px;border:none; white-space:normal; pre-wrap:pre; }
+		.gxtb_image, .gb-breaks, #video-sortables { display:none;}
+		#gb-table { max-width:200px;}
+		ol.gb-faq, ul.gb-faq { width:330px;}
+ 	} 	
+ 
+ 	@media (max-width: 543px) {
+		#side-info-column, .inner-sidebar, #video-sortables  {display:none; visibility:collapse;}
+		.meta-box-sortables, .ui-sortable {max-width:530px;border:none; white-space:normal; pre-wrap:pre; }
+		.gxtb_image, .gb-breaks, #video-sortables { display:none;}
+		#gb-table { max-width:150px;}
+	}
+ 	
+ 	@media (max-width: 479px) and (max-device-width: 480px) {
+		#side-info-column, .inner-sidebar, #video-sortables  {display:none; visibility:collapse;}
+		.meta-box-sortables, .ui-sortable {max-width:530px;border:none; white-space:normal; pre-wrap:pre; }
+		.gxtb_image, .gb-breaks, #video-sortables { display:none;}
+		#gb-table { max-width:150px;}
+	}	
